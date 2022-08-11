@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
+	//也就是说不在括号里面写数量，也不写...
+	//nil切片与空切片的区别：https://zhuanlan.zhihu.com/p/419959268
 	var sli_1 [] int      //nil 切片
 	fmt.Printf("len=%d cap=%d slice=%v\n",len(sli_1),cap(sli_1),sli_1)
 

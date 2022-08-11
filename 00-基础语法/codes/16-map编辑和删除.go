@@ -1,4 +1,3 @@
-//demo_16.go
 package main
 
 import (
@@ -12,10 +11,10 @@ func main() {
 		3 : "John",
 	}
 	fmt.Println("data :",person)
-
+	//删除
 	delete(person, 2)
 	fmt.Println("data :",person)
-
+	//编辑
 	person[2] = "Jack"
 	person[3] = "Kevin"
 	fmt.Println("data :",person)

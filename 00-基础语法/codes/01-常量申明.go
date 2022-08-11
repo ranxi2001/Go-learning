@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"fmt"//打印函数
 )
 
 func main() {
@@ -11,7 +11,7 @@ func main() {
 	//const常量申明②const 名称 = ‘常量’
 	const age = 30
 	fmt.Println(age)
-
+	//同时申明两个常量
 	const name_1, name_2 string = "Tom", "Jay"
 	fmt.Println(name_1, name_2)
 

@@ -7,9 +7,10 @@ import (
 func main() {
 	var age_1 uint8 = 31
 	var age_2 = 32
+	//省略写var 要求变量是首次出现
 	age_3 := 33
-	fmt.Println(age_1, age_2, age_3)
-
+	fmt.Println(age_1, age_2, age_3)//打印并在结束时添加换行符
+	//多个变量赋值
 	var age_4, age_5, age_6 int = 31, 32, 33
 	fmt.Println(age_4, age_5, age_6)
 

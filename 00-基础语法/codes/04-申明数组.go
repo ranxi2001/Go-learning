@@ -5,7 +5,9 @@ import (
 )
 
 func main() {
-	//一维数组
+	//一维数组 数组的长度不能改变
+	//如果不赋值，那么默认为0   [0,0,0,0,0]
+	//初始化语句：  [长度] 类型 {1,2,3,4,5}
 	var arr_1 [5] int
 	fmt.Println(arr_1)
 
@@ -14,7 +16,7 @@ func main() {
 
 	arr_3 := [5] int {1, 2, 3, 4, 5}
 	fmt.Println(arr_3)
-
+	//可以根据初始化结果自动计算长度
 	arr_4 := [...] int {1, 2, 3, 4, 5, 6}
 	fmt.Println(arr_4)
 

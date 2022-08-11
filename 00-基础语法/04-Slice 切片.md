@@ -1,6 +1,6 @@
 ## 概述
 
-切片是一种动态数组，比数组操作灵活，长度不是固定的，可以进行追加和删除。
+切片是一种动态数组，比数组操作灵活，长度不是固定的，可以进行追加和删除。我认为它跟python的列表很相似。
 
 `len()` 和 `cap()` 返回结果可相同和不同。 
 
@@ -38,6 +38,7 @@ func main() {
 运行结果：
 
 ![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/04-切片/4_go_1.png)
+nil切片与空切片的区别：https://zhuanlan.zhihu.com/p/419959268
 
 ## 截取切片
 

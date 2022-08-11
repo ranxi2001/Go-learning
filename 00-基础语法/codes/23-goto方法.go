@@ -1,4 +1,3 @@
-//demo_23.go
 package main
 
 import "fmt"

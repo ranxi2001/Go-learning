@@ -1,4 +1,3 @@
-//demo_19.go
 package main
 
 import (
@@ -7,8 +6,13 @@ import (
 
 func main() {
 
-	person := [] string {"Tom", "Aaron", "John"}
-	fmt.Printf("len=%d cap=%d slice=%v\n",len(person),cap(person),person)
+	person := map[int]string{
+		1 : "Tom",
+		2 : "Aaron",
+		3 : "John",
+	}
+
+	fmt.Printf("len=%d map=%v\n", len(person), person)
 
 	fmt.Println("")
 
@@ -25,7 +29,7 @@ func main() {
 
 	fmt.Println("")
 
-	for i := 0; i < len(person); i++ {
+	for i := 1; i <= len(person); i++ {
 		fmt.Printf("person[%d]: %s\n", i, person[i])
 	}
 
